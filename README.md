@@ -8,22 +8,23 @@ Project ini bertujuan untuk melakukan web scraping pada situs web OLX sehingga m
 ## Langkah-langkah
 
 1. *Buat Environment*
-bash
-    python -m venv env-scrapy
+```bash
 
-2. *Aktifkan Python virtual environment*
-bash
-    source env-scrapye/bin/activate
-
-3. *Install Scrapy*
-bash
+   python -m venv env-scrapy
+```
+3. *Aktifkan Python virtual environment*
+```bash
+  source env-scrapye/bin/activate
+```
+4. *Install Scrapy*
+```bash
     pip install scrapy
-
-4. *Buat project Scrapy baru*
-bash
+```
+5. *Buat project Scrapy baru*
+```bash
     scrapy startproject olx_scrapy
-
-5. *Jalankan spider yang akan menghasilkan format output JSON*
-bash
+```
+7. *Jalankan spider yang akan menghasilkan format output JSON*
+```bash
     scrapy crawl myspider -o output.json
-
+```
